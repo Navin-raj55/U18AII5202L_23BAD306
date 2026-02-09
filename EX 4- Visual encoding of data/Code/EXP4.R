@@ -1,5 +1,5 @@
-student_name <- "Selva Aswin"
-roll_no <- "23BAD107"
+student_name <- "Navinraj S"
+roll_no <- "23BAD306"
 cat("Name:", student_name, "\n")
 cat("Roll No:", roll_no, "\n\n")
 library(ggplot2)
@@ -29,3 +29,4 @@ health_vars <- patient_data[, c("Age", "BMI", "Glucose_Level", "Blood_Pressure")
 cor_matrix <- cor(health_vars)
 cat("\nCorrelation Matrix:\n")
 print(round(cor_matrix, 2))
+
